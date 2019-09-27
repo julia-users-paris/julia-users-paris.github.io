@@ -30,3 +30,7 @@ table p:first-child {
 table tr:last-child p {
     margin-bottom:0px;
 } 
+
+.summary {
+    padding-left: 2em;
+}
