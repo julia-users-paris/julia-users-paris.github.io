@@ -25,12 +25,15 @@ td {
 
 table p:first-child {
     margin-top:0px;
-} 
+}
 
 table tr:last-child p {
     margin-bottom:0px;
-} 
+}
 
 .summary {
     padding-left: 2em;
+    font-size: 80%;
+    text-align: justify;
+    text-justify: inter-word;
 }
