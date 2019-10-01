@@ -43,7 +43,7 @@
                   that is the modelling of electrons in materials and chemical compounds,
                   is now a standard procedure in industry and research
                   and crucial for progress in material science,
-                  chemical manifacturing or pharmacy.
+                  chemical manufacturing or pharmacy.
                   Recently we have developed
                   the <a href="https://github.com/mfherbst/DFTK.jl"
                   style="font-family:monospace">DFTK.jl</a> package,
@@ -66,17 +66,23 @@
                 talk about <i>"Accurate and Efficiently Vectorized Sums and Dot
                   Products in Julia"</i>.
                 <div class="summary">
-                  This talk will present how basic algorithmic
-                  blocks such as sums or dot products can be implemented in
-                  Julia (and have been developed
+                  This talk will present how basic algorithmic blocks such as
+                  sums or dot products can be implemented in Julia (and have
+                  been developed
                   in <a href="https://github.com/JuliaMath/AccurateArithmetic.jl"
                   style="font-family:monospace">AccurateArithmetic.jl</a>) in a
-                  way that is both accurate and efficient. This example
-                  illustrates how Julia can help efficiently mix
-                  Floating-Point-related concerns with hardware, SIMD-related
-                  constraints in order to get the performance of
-                  double-precision state-of-the-art BLAS libraries and the
-                  accuracy of quadruple-precision algorithms.
+                  way that is both accurate and efficient. Besides naive
+                  algorithms, compensated algorithms are implemented, which
+                  effectively double the working precision, producing much more
+                  accurate results while incurring little to no overhead,
+                  especially for large input vectors. Although the vectorization
+                  of such algorithms is no particularly simple task, Julia makes
+                  it relatively easy and straightforward. This talk will
+                  illustrate how Julia can help efficiently mix
+                  Floating-Point-related concerns with SIMD-related constraints
+                  in order to get the performance of double-precision
+                  state-of-the-art BLAS libraries and the accuracy of
+                  quadruple-precision algorithms.
                 </div>
               </p>
             </td>
