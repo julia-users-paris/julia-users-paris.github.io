@@ -37,3 +37,14 @@ table tr:last-child p {
     text-align: justify;
     text-justify: inter-word;
 }
+
+#sponsors {
+    text-align: center;
+}
+
+#sponsors img {
+    margin: 1em;
+    max-width: 7em;
+    max-height: 3.5em;
+    vertical-align: middle;
+}
