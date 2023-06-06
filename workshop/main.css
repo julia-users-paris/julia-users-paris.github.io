@@ -55,6 +55,12 @@ table tr:last-child p {
     content: " Download the slides";
 }
 
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
 #soutiens {
     text-align: center;
 }
