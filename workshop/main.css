@@ -57,16 +57,24 @@ table tr:last-child p {
 
 .row {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 5px;
 }
+
+.column {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 
 #soutiens {
     text-align: center;
 }
 
 #sponsors img {
-    margin: 1em;
+    margin: 2em;
     max-width: 7em;
     max-height: 3.5em;
     vertical-align: middle;
